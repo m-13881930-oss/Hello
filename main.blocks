@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="E/E+VW:I7o|1u~UL`blv">sprite</variable></variables><block type="device_button_event" id="O=/A5m)msmU.v`8yo(dM" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="=`wWMP%,S_@5ODqz.2L+"><value name="value"><shadow type="math_number" id=".xHtX.X1}0JW,QIk7ZQQ"><field name="NUM">9</field></shadow></value></block></statement></block><block type="device_button_event" id=")rsv?T#i@Dr.?2S]or;C" x="1" y="133"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_set_group" id="8[g:k.xIK32A^XK|8+MK"><value name="ID"><shadow type="math_number_minmax" id="2m:Fv@Wa5YUL~l~@sl6)"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_ring" id="y!z5;`G-O4R9~u0j3XIy"><value name="note"><shadow type="device_note" id="G1nC$o^^Q%q:?Ga}W?no"><field name="name">988</field></shadow></value><next><block type="device_show_leds" id="sphlDx]mR?9i7+dO/v]{"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        # # . # #
+        `</field></block></next></block></next></block></statement></block></xml>
